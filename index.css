@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to top, rgb(226, 226, 226), rgb(26, 196, 196));
+  font-family: sans-serif;
+  color: #fff;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
+.grid div {
+  background-color: rgb(47, 198, 47);
+  border: 1px solid green;
+}
+.grid .flat {
+  background-color: red;
+}
+.grid .bomb {
+  background-color: black;
+}
