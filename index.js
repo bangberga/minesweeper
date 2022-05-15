@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
   const grid = document.querySelector(".grid");
   const numOfFlags = document.querySelector("#numFlats");
   const selections = document.querySelector("#modes");
@@ -291,4 +290,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // render the whole game
   render();
-});
