@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Minesweeper</h1>
+      <article class="container">
+        <select id="modes"></select>
+        <div class="flag-info">
+          <img src="./imgs/flag-transparent.png" alt="" />:
+          <span id="numFlats"></span>
+        </div>
+        <div class="timer">
+          <img src="./imgs/clock.png" alt="" />:
+          <span id="second"></span>
+        </div>
+      </article>
+      <div class="board">
+        <div class="over">
+          <h2 id="result"></h2>
+          <button class="btn replay">
+            <i class="bx bx-revision"></i>Replay
+          </button>
+        </div>
+        <div class="grid"></div>
+      </div>
+    </main>
+  </body>
+</html>
