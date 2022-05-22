@@ -119,13 +119,6 @@
     numOfFlags.innerHTML = flags;
   }
 
-  // change mode
-  function render() {
-    const option = selections.value;
-    const mode = modes.find((mode) => mode.name === option);
-    createBoard(mode);
-  }
-
   // add flats by right click
   function addRightClick() {
     squares.forEach((square, index) => {
@@ -284,9 +277,14 @@
     overDisplay.style.height = "100%";
   }
 
+  // change mode and auto render game
+  const render = (function render() {
+    const option = selections.value;
+    const mode = modes.find((mode) => mode.name === option);
+    createBoard(mode);
+    return render;
+  })();
+
   // add some events
   replayBtn.addEventListener("click", render);
   selections.addEventListener("change", render);
-
-  // render the whole game
-  render();
