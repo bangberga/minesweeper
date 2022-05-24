@@ -30,17 +30,19 @@ main .container select {
   color: rgb(251, 251, 251);
   border-radius: 7px;
 }
-.flag-info {
-  display: flex;
-  align-items: center;
-}
 #numFlats,
-#second {
+#second,
+#hint{
   margin-left: 5px;
 }
-.timer {
+.flag-info,
+.timer,
+.hint{
   display: flex;
   align-items: center;
+}
+.hint{
+  cursor: pointer;
 }
 .timer img {
   margin-right: 10px;
