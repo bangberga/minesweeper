@@ -1,7 +1,7 @@
 # Group member
 Trần Anh Thi - ITITIU19212
 Trần Ngọc Diễm Quyên - ITITIU19197
-Văn Hoàng Quế Anh - 
+Văn Hoàng Quế Anh - ITITU19003
 Hồ Tú Quyên - ITITIU19196
 
 # Introduction
