@@ -24,4 +24,8 @@ Left clicking on numbers
 The game is implemented with 3 levels: easy, medium, hard
 
 # Project report
+Go to link: https://www.canva.com/design/DAFAvCG-1Qw/moqwJAOu1c45fUa92kO7mQ/view?utm_content=DAFAvCG-1Qw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+# Presentation slide
+Go to link: https://www.canva.com/design/DAFAvCG-1Qw/moqwJAOu1c45fUa92kO7mQ/view?utm_content=DAFAvCG-1Qw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
