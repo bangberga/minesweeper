@@ -27,5 +27,5 @@ The game is implemented with 3 levels: easy, medium, hard
 Go to link: https://www.canva.com/design/DAFAvCG-1Qw/moqwJAOu1c45fUa92kO7mQ/view?utm_content=DAFAvCG-1Qw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # Presentation slide
-Go to link: https://www.canva.com/design/DAFAvCG-1Qw/moqwJAOu1c45fUa92kO7mQ/view?utm_content=DAFAvCG-1Qw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Go to link: https://www.canva.com/design/DAE-cVeCw34/7i7YlgrJCvHSXZYsOHMRxA/view?utm_content=DAE-cVeCw34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
