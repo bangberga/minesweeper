@@ -6,17 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minesweeper</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="dist/app.js" type="module" defer></script>
   </head>
   <body>
     <main>
       <h1>Minesweeper</h1>
-      <select id="modes">
-        <option value="easy">Easy</option>
-        <option value="hard">Hard</option>
-      </select>
-      <div>Number of flats: <span class="numFlats"></span></div>
-      <div class="grid"></div>
+      <article class="container">
+        <select id="modes"></select>
+        <div class="flag-info">
+          <img src="./imgs/flag-transparent.png" alt="" />:
+          <span id="numFlats"></span>
+        </div>
+        <div class="timer">
+          <img src="./imgs/clock.png" alt="" />:
+          <span id="second"></span>
+        </div>
+        <div class="hint">
+          <img src="./imgs/hint.png" alt="" />:
+          <span id="hint"></span>
+        </div>
+      </article>
+      <div class="board">
+        <div class="over">
+          <h2 id="result"></h2>
+          <button class="btn replay">
+            <i class="bx bx-revision"></i>Replay
+          </button>
+        </div>
+        <div class="grid"></div>
+      </div>
     </main>
   </body>
 </html>
